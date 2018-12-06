@@ -9,7 +9,10 @@ public class RadioStation {
         SongsOfThe80s songs80s = new SongsOfThe80s();
         SongsOfThe90s songs90s = new SongsOfThe90s();
 
-        DiscJokey madMike = new DiscJokey(songs70s, songs80s, songs90s);
-        madMike.showTheSongs();
+        DiscJokey madMike1 = new DiscJokey(songs70s, songs80s, songs90s);
+
+        madMike1.showTheSongs2();
+
+
     }
 }

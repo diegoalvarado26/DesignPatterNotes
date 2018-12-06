@@ -5,11 +5,12 @@ import java.util.Iterator;
 
 public class SongsOfThe80s implements SongIterator {
 
-    public SongInfo[] bestSongs;
+    SongInfo[] bestSongs;
     int arrayValue = 0;
 
     public SongsOfThe80s(){
-        bestSongs = new SongInfo[3];
+
+        bestSongs = new SongInfo[2];
 
         addSong("Roam", "B52s", 1989);
         addSong("Cruel Summer", "Banarama", 1984);

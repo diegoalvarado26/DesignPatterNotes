@@ -7,8 +7,8 @@ import java.util.Iterator;
 
 public class SongsOfThe90s implements SongIterator{
 
-    HashMap<Integer, SongInfo> bestSongs = new HashMap<Integer, SongInfo>();
-    public int hashKey = 0;
+    Hashtable<Integer, SongInfo> bestSongs = new Hashtable<Integer, SongInfo>();
+    int hashKey = 0;
 
     public SongsOfThe90s(){
 
@@ -23,7 +23,7 @@ public class SongsOfThe90s implements SongIterator{
         hashKey++;
     }
 
-    public HashMap<Integer, SongInfo> getBestSongs() {
+    public Hashtable<Integer, SongInfo> getBestSongs() {
         return bestSongs;
     }
 
